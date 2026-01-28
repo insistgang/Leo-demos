@@ -1,0 +1,8 @@
+{
+  "model_accuracy": 0.7292631578947368,
+  "model_f1": 0.7116160861115264,
+  "model_auc": 0.8158388430347292,
+  "imbalance_ratio": 19.0,
+  "total_customers": 50000,
+  "other_products_holders": 2500
+}
