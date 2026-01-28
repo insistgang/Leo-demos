@@ -1,0 +1,35 @@
+{
+  "name": "ai-chinese-tutor-web",
+  "version": "1.0.0",
+  "description": "体育生语文基础智能辅导系统 - Web版",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "server": "cd server && npm run dev",
+    "dev:all": "concurrently \"npm run dev\" \"npm run server\"",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "语文学习",
+    "AI教育",
+    "Web应用"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/plots": "^2.6.3",
+    "antd": "^5.7.0",
+    "axios": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@vitejs/plugin-react": "^4.0.1",
+    "concurrently": "^9.2.1",
+    "vite": "^4.4.0"
+  }
+}
