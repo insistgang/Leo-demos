@@ -1,0 +1,162 @@
+/* 古诗词学习页面样式 */
+
+.literature-container {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.progress-card .progress-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+
+.question-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question-text {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.single-choice-question,
+.multiple-choice-question {
+  padding: 20px 0;
+}
+
+.single-choice-question .ant-radio-wrapper,
+.multiple-choice-question .ant-checkbox-wrapper {
+  padding: 8px 0;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.blank-filling-question {
+  padding: 20px 0;
+}
+
+.blank-filling-question .question-content {
+  font-size: 16px;
+  line-height: 2.5;
+  color: #333;
+}
+
+.blank-filling-question .ant-input {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.result-section {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.action-buttons {
+  margin-top: 20px;
+}
+
+.explanation-card {
+  border: 1px solid #d9d9d9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.explanation-content {
+  padding: 16px;
+}
+
+.answer-status {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.correct-answer {
+  margin-bottom: 12px;
+}
+
+.correct-answer .ant-typography {
+  color: #333;
+}
+
+.explanation-text .ant-typography {
+  color: #666;
+  font-size: 14px;
+}
+
+.history-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+
+.history-card .ant-list-item {
+  padding: 16px 24px;
+}
+
+.history-card .ant-list-item-meta-title {
+  color: #333;
+  font-size: 15px;
+}
+
+.history-card .ant-list-item-meta-description {
+  color: #999;
+  font-size: 13px;
+}
+
+.submit-btn,
+.explanation-btn,
+.next-poem-btn {
+  min-width: 120px;
+  height: 40px;
+  font-size: 15px;
+}
+
+.ml-4 {
+  margin-left: 16px;
+}
+
+.mt-4 {
+  margin-top: 16px;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.mt-6 {
+  margin-top: 24px;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .literature-container {
+    padding: 16px;
+  }
+
+  .question-text {
+    font-size: 15px;
+  }
+
+  .single-choice-question .ant-radio-wrapper,
+  .multiple-choice-question .ant-checkbox-wrapper {
+    font-size: 14px;
+  }
+
+  .blank-filling-question .question-content {
+    font-size: 15px;
+    line-height: 2.2;
+  }
+
+  .blank-filling-question .ant-input {
+    width: 120px !important;
+  }
+}

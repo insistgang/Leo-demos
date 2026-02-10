@@ -1,0 +1,84 @@
+{
+  "timestamp": "2025-11-15T13:06:28.345823",
+  "condition1": {
+    "single_step": {
+      "accuracy": 0.6296666666666667,
+      "f1": 0.6114025883175935,
+      "auc": 0.6841766177026293
+    },
+    "two_step": {
+      "accuracy": 0.61,
+      "f1": 0.5886075949367089,
+      "auc": 0.6135132464612234,
+      "improvement": -3.123345685547917
+    },
+    "event_model": {
+      "accuracy": 0.87542201215395,
+      "auc": 0.5080076095337066
+    }
+  },
+  "condition2_top_features": [
+    {
+      "feature": "time_to_next",
+      "importance": 0.15592836147838046,
+      "explanation": "事件间隔反映客户活跃度，间隔短表示兴趣高"
+    },
+    {
+      "feature": "event_rate",
+      "importance": 0.15581483827203968,
+      "explanation": "事件关联的利率反映产品吸引力"
+    },
+    {
+      "feature": "cust_income",
+      "importance": 0.1065825309873342,
+      "explanation": "收入水平决定产品购买能力"
+    },
+    {
+      "feature": "cust_balance",
+      "importance": 0.10507692284586315,
+      "explanation": "账户余额显示资金实力"
+    },
+    {
+      "feature": "cust_credit",
+      "importance": 0.103296483074282,
+      "explanation": "信用分数高代表风险承受能力强"
+    },
+    {
+      "feature": "event_amt",
+      "importance": 0.08953587007907333,
+      "explanation": "交易金额体现客户实力和投资意愿"
+    },
+    {
+      "feature": "cust_age",
+      "importance": 0.08368213207704134,
+      "explanation": "年龄影响风险偏好和产品选择"
+    },
+    {
+      "feature": "cust_products",
+      "importance": 0.06074634746256491,
+      "explanation": "持有产品数量显示客户粘性"
+    },
+    {
+      "feature": "event_term",
+      "importance": 0.05167706209214856,
+      "explanation": "事件期限反映客户投资偏好"
+    },
+    {
+      "feature": "event_type",
+      "importance": 0.04588012313443206,
+      "explanation": "历史事件类型揭示客户行为模式"
+    }
+  ],
+  "condition3_summary": {
+    "product": {
+      "name": "智能稳健理财计划",
+      "type": "理财",
+      "risk": "中低",
+      "return": 0.06,
+      "min_amount": 50000,
+      "fee": 0.01
+    },
+    "conflicts_count": 0,
+    "recommendations_count": 1619
+  }
+}
